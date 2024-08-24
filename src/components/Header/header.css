@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+}
+header .container {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 5rem;
+}
+header .container .content {
+  width: 50%;
+}
+header .container .content h1 {
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 5rem;
+  font-weight: 500;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+header .container .content p {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 4rem;
+}
+header .container .content button {
+  cursor: pointer;
+  color: white;
+  border: none;
+  background: #ee4248;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  padding: 18px 50px;
+}
+header .container .content button:hover {
+  background: #d23a3f;
+}
+header .container img {
+  width: 50%;
+}/*# sourceMappingURL=header.css.map */

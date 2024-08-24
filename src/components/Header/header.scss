@@ -1,0 +1,48 @@
+header {
+  width: 100%;
+
+  .container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 5rem;
+
+    .content {
+      width: 50%;
+
+      h1 {
+        color: rgba(0, 0, 0, 0.8);
+        line-height: 5rem;
+        font-weight: 500;
+        font-size: 3.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        color: rgba(0, 0, 0, 0.7);
+        margin-bottom: 4rem;
+      }
+
+      button {
+        cursor: pointer;
+        color: #ffff;
+        border: none;
+        background: #ee4248;
+        border-radius: 8px;
+        font-size: 1.5rem;
+        padding: 18px 50px;
+      }
+
+      button:hover {
+        background: #d23a3f;
+      }
+    }
+
+    img {
+      width: 50%;
+    }
+  }
+}
